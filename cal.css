@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: clamp(2.5rem, 5vw, 4rem);
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -147,4 +147,5 @@ button {
 
 button:hover {
     background-color: rgba(240, 248, 255, 0.552);
+
 }
